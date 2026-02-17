@@ -59,7 +59,7 @@ main {
 .icons {
     width: 3rem;
     padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2.5rem;
 }
 
 .profile-picture {
@@ -70,16 +70,15 @@ main {
 
 .about-button {
     width: fit-content;
-    background-color: #8622FF;
-    border-radius: 10px;
-    padding: 0.7rem 1rem;
     display: block;
     margin: 0 auto;
-}
-
-.about-me {
-    color:#F4EAFF;
+    background-color: #8622FF;
+    border-radius: 10px;
+    padding: 0.7rem 1.2rem;
+    color: #F4EAFF;
     font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .copyright {
