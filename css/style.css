@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #2E2E2E;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #CCA5FA;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.home-h1 {
+    color: #F4EAFF;
+    font-size: 4.5rem;
+}
+
+.home-description {
+    color: #CCA5FA;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    width: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.profile-picture {
+    width: 25%;
+    height: auto;
+    border-radius: 25px;
+}
+
+.about-button {
+    width: fit-content;
+    background-color: #8622FF;
+    border-radius: 10px;
+    padding: 0.7rem 1rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-me {
+    color:#F4EAFF;
+    font-size: 1.6rem;
+}
+
+.copyright {
+    color: #CCA5FA;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}

@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio - Lavinia Park</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,14 +21,21 @@
         </nav>
     </header>
     <main>
-        <h1>I'm Lavinia Park</h1>
-        <span>Junior developer focusing to become a fullstack developer</span>
-        <a href="https://www.linkedin.com/in/lavinia-park-l01122003/" target="_blank"><img src="/assets/icons/linkedin-lavender-icon.png" alt="Lavender Linkedin Icon"/></a>
-        <a href="https://github.com/laviniapark" target="_blank"><img src="/assets/icons/github-lavender-icon.png" alt="Lavender Github Icon"/></a>
-        <img src="/assets/images/foto-portfolio.jpeg" alt="Profile picture of Lavinia"/>
+        <div class="main-text">
+            <h1 class="home-h1">I'm Lavinia Park</h1>
+            <p class="home-description">Junior developer focused on becoming a fullstack developer</p> 
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/lavinia-park-l01122003/" target="_blank"><img src="/assets/icons/linkedin-lavender-icon.png" alt="Lavender Linkedin Icon" class="icons"/></a>
+                <a href="https://github.com/laviniapark" target="_blank"><img src="/assets/icons/github-lavender-icon.png" alt="Lavender Github Icon" class="icons"/></a>
+            </div>
+            <div class="about-button">
+                <a href="" class="about-me">About Me</a>
+            </div>
+        </div>
+        <img src="/assets/images/foto-portfolio.jpeg" alt="Profile picture of Lavinia" class="profile-picture"/>
     </main>
     <footer>
-        <p>© 2026 Lavinia Park. All rights reserved.</p>
+        <p class="copyright">© 2026 Lavinia Park. All rights reserved.</p>
     </footer>
 </body>
 </html>
