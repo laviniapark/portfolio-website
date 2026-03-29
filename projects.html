@@ -11,15 +11,57 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="menu">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="index.html" class="navbar">Home</a></li>
+                <li><a href="about.html" class="navbar">About Me</a></li>
+                <li><a href="projects.html" class="navbar">Projects</a></li>
             </ul>
+            <div class="icons">
+                <a href="https://github.com/laviniapark" target="_blank">
+                    <img src="images/github.png" alt="Github Icon">
+                </a>
+                <a href="https://www.linkedin.com/in/lavinia-park-l01122003/" target="_blank">
+                    <img src="images/linkedin.png" alt="Linkedin Icon">
+                </a>
+            </div>
         </nav>
     </header>
-    <h1>Projects</h1>
+    <main>
+        <section class="projects">
+            <h1>My Projects</h1>
+
+            <div class="project-cards">
+                <div class="project-card">
+                    <img src="images/excuse-generator.png" alt="Excuse Generator Project">
+
+                    <div class="project-content">
+                        <h3>Excuse Generator</h3>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <p class="project-description">
+                            A simple app that generates random excuses with a single click.
+                        </p>
+
+                        <ul class="project-highlights">
+                            <li>Dynamic content generation using JavaScript</li>
+                            <li>Simple and intuitive UI design</li>
+                            <li>DOM manipulation for dynamic content updates</li>
+                        </ul>
+                    </div>
+                    <div class="project-icons">
+                        <a href="https://github.com/laviniapark/gerador-de-desculpas" target="_blank" title="View Code"><img src="images/github.png" alt="Github Icon"></a>
+                        <a href="https://gerador-de-desculpas-six.vercel.app/" target="_blank" title="View Live Demo"><img src="images/link.png" alt="Live Demo Icon"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

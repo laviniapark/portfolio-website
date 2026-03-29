@@ -400,3 +400,139 @@ footer {
 .timeline-content li:last-child {
   margin-bottom: 0;
 }
+
+/*PROJECTS CSS*/
+
+.projects {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.projects h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #f8fafc;
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.project-card {
+  width: 100%;
+  max-width: 380px;
+  background: rgba(15, 23, 42, 0.75);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(14px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: rgba(96, 165, 250, 0.35);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+.project-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.12);
+}
+
+.project-content {
+  padding: 1.5rem;
+}
+
+.project-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: #f8fafc;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.project-tags span {
+  padding: 0.45rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #bfdbfe;
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(96, 165, 250, 0.2);
+}
+
+.project-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+  margin-bottom: 1.2rem;
+}
+
+.project-highlights {
+  padding-left: 1.1rem;
+  color: #94a3b8;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.project-highlights li {
+  line-height: 1.5;
+  font-size: 0.92rem;
+}
+
+.project-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.project-icons a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(96, 165, 250, 0.2);
+
+  transition: all 0.25s ease;
+}
+
+.project-icons a img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(80%) sepia(20%) saturate(500%) hue-rotate(190deg);
+}
+
+.project-icons a:hover {
+  transform: translateY(-3px);
+  background: rgba(59, 130, 246, 0.25);
+  border-color: rgba(96, 165, 250, 0.4);
+}
+
+.project-icons a:hover img {
+  filter: brightness(0) invert(1);
+}
